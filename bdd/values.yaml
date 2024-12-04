@@ -1,0 +1,7 @@
+image: postgres:latest
+replicas: 3
+app: bdd-app
+namespace: bdd
+username: YWRtaW4= # 'admin' encodé en base64
+mdp: YWRtaW4= # 'admin' encodé en base64
+volumeName: persistent-storage

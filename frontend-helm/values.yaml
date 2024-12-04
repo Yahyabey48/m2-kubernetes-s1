@@ -1,0 +1,7 @@
+image: nginx:latest
+replicas: 3
+app: nginx-app
+namespace: front
+username: YWRtaW4= # 'admin' encodé en base64
+mdp: YWRtaW4= # 'admin' encodé en base64
+volumeName: persistent-storage

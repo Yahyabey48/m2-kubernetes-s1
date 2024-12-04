@@ -1,0 +1,8 @@
+image: backapi:latest
+imagePullPolicy: Never
+replicas: 3
+app: node-app
+namespace: back
+username: YWRtaW4= # 'admin' encodé en base64
+mdp: YWRtaW4= # 'admin' encodé en base64
+volumeName: my-persistent-volume-back

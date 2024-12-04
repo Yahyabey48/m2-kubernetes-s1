@@ -1,0 +1,6 @@
+yahyabey48@MacBook-Air-de-YAHYABEY ~ % minikube service service-nginx -n front
+
+
+
+Après la réalisation de cette commande le service se lance bien 
+
